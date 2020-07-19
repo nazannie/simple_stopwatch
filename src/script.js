@@ -28,9 +28,9 @@ function start() {
     isStarted = true;
     startButton.textContent = "Pause";
     timerId = setInterval(() => {
-      time += 23;
+      time += 10;
       timerRef.textContent = convert(time);
-    }, 23);
+    }, 10);
   }
 }
 
